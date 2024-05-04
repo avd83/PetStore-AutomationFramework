@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 03 12:20:04 IST 2024</td>
+<td>Started on:</td><td>Sat May 04 15:00:56 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17166 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19288 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -83,8 +83,8 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xs
 	at api.utilities.XLUtility.getCellData(XLUtility.java:54)
 	at api.utilities.DataProviders.getUserNames(DataProviders.java:37)
 	... 30 more
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1956845069", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1956845069'><pre>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;this.sheet&quot; is null
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace669265896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace669265896'><pre>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;this.sheet&quot; is null
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
@@ -119,15 +119,17 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xs
 Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;this.sheet&quot; is null
 	at api.utilities.XLUtility.getCellData(XLUtility.java:54)
 	at api.utilities.DataProviders.getUserNames(DataProviders.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
 	... 30 more
 </pre></div></td>
 <td>0</td>
-<td>api.test.TestUserExcelDriven@1fe20588</td></tr>
+<td>api.test.TestUserExcelDriven@66498326</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -138,40 +140,60 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xs
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='api.test.TestUser.test_putUser()'><b>test_putUser</b><br>Test class: api.test.TestUser</td>
+<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1040, maheesh, mahesh, manjrekar, m.m@gmail.com, abc12, 6787678987</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUser@27ae2fd0</td></tr>
+<td>api.test.TestUserExcelDriven@66498326</td></tr>
+<tr>
+<td title='api.test.TestPet.test_postPet()'><b>test_postPet</b><br>Test class: api.test.TestPet</td>
+<td></td>
+<td>4</td>
+<td>api.test.TestPet@4944252c</td></tr>
 <tr>
 <td title='api.test.TestUser.test_getUser()'><b>test_getUser</b><br>Test class: api.test.TestUser</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUser@27ae2fd0</td></tr>
+<td>api.test.TestUser@51dcb805</td></tr>
+<tr>
+<td title='api.test.TestUser.test_putUser()'><b>test_putUser</b><br>Test class: api.test.TestUser</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUser@51dcb805</td></tr>
+<tr>
+<td title='api.test.TestUser.test_postUser()'><b>test_postUser</b><br>Test class: api.test.TestUser</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUser@51dcb805</td></tr>
+<tr>
+<td title='api.test.TestPet.test_putPet()'><b>test_putPet</b><br>Test class: api.test.TestPet</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestPet@4944252c</td></tr>
+<tr>
+<td title='api.test.TestPet.test_deletePet()'><b>test_deletePet</b><br>Test class: api.test.TestPet</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestPet@4944252c</td></tr>
 <tr>
 <td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1020, arsgad, arshad, warsi, a.w@gmail.com, abc, 9876789876</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUserExcelDriven@1fe20588</td></tr>
+<td>api.test.TestUserExcelDriven@66498326</td></tr>
 <tr>
-<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1030, sanju, sanjay , dutt, s.d@gmail.com, abc1, 8787987678</td>
+<td title='api.test.TestPet.test_getPet()'><b>test_getPet</b><br>Test class: api.test.TestPet</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUserExcelDriven@1fe20588</td></tr>
-<tr>
-<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1040, maheesh, mahesh, manjrekar, m.m@gmail.com, abc12, 6787678987</td>
-<td></td>
-<td>1</td>
-<td>api.test.TestUserExcelDriven@1fe20588</td></tr>
-<tr>
-<td title='api.test.TestUser.test_postUser()'><b>test_postUser</b><br>Test class: api.test.TestUser</td>
-<td></td>
-<td>6</td>
-<td>api.test.TestUser@27ae2fd0</td></tr>
+<td>api.test.TestPet@4944252c</td></tr>
 <tr>
 <td title='api.test.TestUser.test_deleteUser()'><b>test_deleteUser</b><br>Test class: api.test.TestUser</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUser@27ae2fd0</td></tr>
+<td>api.test.TestUser@51dcb805</td></tr>
+<tr>
+<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1030, sanju, sanjay , dutt, s.d@gmail.com, abc1, 8787987678</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUserExcelDriven@66498326</td></tr>
 </table><p>
 </body>
 </html>

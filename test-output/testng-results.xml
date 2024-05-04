@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-03T11:34:19 IST" name="Suite" finished-at="2024-05-03T11:34:43 IST" duration-ms="23863">
+  <suite started-at="2024-05-04T17:55:27 IST" name="Suite" finished-at="2024-05-04T17:55:51 IST" duration-ms="24410">
     <groups>
     </groups>
-    <test started-at="2024-05-03T11:34:19 IST" name="Test" finished-at="2024-05-03T11:34:43 IST" duration-ms="23863">
+    <test started-at="2024-05-04T17:55:27 IST" name="Test" finished-at="2024-05-04T17:55:51 IST" duration-ms="24410">
+      <class name="api.test.TestPet">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestPet@2e6a8155]" started-at="2024-05-04T17:55:42 IST" name="setUp" finished-at="2024-05-04T17:55:42 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_postPet()[pri:1, instance:api.test.TestPet@2e6a8155]" started-at="2024-05-04T17:55:42 IST" name="test_postPet" finished-at="2024-05-04T17:55:43 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_postPet -->
+        <test-method signature="test_getPet()[pri:2, instance:api.test.TestPet@2e6a8155]" started-at="2024-05-04T17:55:43 IST" name="test_getPet" finished-at="2024-05-04T17:55:45 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPet -->
+        <test-method signature="test_putPet()[pri:3, instance:api.test.TestPet@2e6a8155]" started-at="2024-05-04T17:55:45 IST" name="test_putPet" finished-at="2024-05-04T17:55:46 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_putPet -->
+        <test-method signature="test_deletePet()[pri:4, instance:api.test.TestPet@2e6a8155]" started-at="2024-05-04T17:55:46 IST" name="test_deletePet" finished-at="2024-05-04T17:55:47 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deletePet -->
+      </class> <!-- api.test.TestPet -->
       <class name="api.test.TestUserExcelDriven">
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@550dbc7a]" started-at="2024-05-03T11:34:23 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-03T11:34:27 IST" duration-ms="4387" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@51c668e3]" started-at="2024-05-04T17:55:39 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-04T17:55:40 IST" duration-ms="1180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@550dbc7a]" started-at="2024-05-03T11:34:27 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-03T11:34:28 IST" duration-ms="1151" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@51c668e3]" started-at="2024-05-04T17:55:40 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-04T17:55:41 IST" duration-ms="1122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@550dbc7a]" started-at="2024-05-03T11:34:28 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-03T11:34:29 IST" duration-ms="1144" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@51c668e3]" started-at="2024-05-04T17:55:41 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-04T17:55:42 IST" duration-ms="1117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testDeleteUser(java.lang.String)[pri:2, instance:api.test.TestUserExcelDriven@550dbc7a]" started-at="2024-05-03T11:34:29 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-05-03T11:34:29 IST" duration-ms="0" status="FAIL">
+        <test-method signature="testDeleteUser(java.lang.String)[pri:2, instance:api.test.TestUserExcelDriven@51c668e3]" started-at="2024-05-04T17:55:42 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-05-04T17:55:42 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "this.sheet" is null]]>
@@ -182,27 +204,49 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedExce
         </test-method> <!-- testDeleteUser -->
       </class> <!-- api.test.TestUserExcelDriven -->
       <class name="api.test.TestUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestUser@4d5650ae]" started-at="2024-05-03T11:34:29 IST" name="setUp" finished-at="2024-05-03T11:34:30 IST" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestUser@130c12b7]" started-at="2024-05-04T17:55:27 IST" name="setUp" finished-at="2024-05-04T17:55:29 IST" duration-ms="1207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_postUser()[pri:1, instance:api.test.TestUser@4d5650ae]" started-at="2024-05-03T11:34:30 IST" name="test_postUser" finished-at="2024-05-03T11:34:32 IST" duration-ms="2338" status="PASS">
+        <test-method signature="test_postUser()[pri:1, instance:api.test.TestUser@130c12b7]" started-at="2024-05-04T17:55:29 IST" name="test_postUser" finished-at="2024-05-04T17:55:33 IST" duration-ms="4018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_postUser -->
-        <test-method signature="test_getUser()[pri:2, instance:api.test.TestUser@4d5650ae]" started-at="2024-05-03T11:34:32 IST" name="test_getUser" finished-at="2024-05-03T11:34:33 IST" duration-ms="1212" status="PASS">
+        <test-method signature="test_getUser()[pri:2, instance:api.test.TestUser@130c12b7]" started-at="2024-05-04T17:55:33 IST" name="test_getUser" finished-at="2024-05-04T17:55:34 IST" duration-ms="1191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getUser -->
-        <test-method signature="test_putUser()[pri:3, instance:api.test.TestUser@4d5650ae]" started-at="2024-05-03T11:34:33 IST" name="test_putUser" finished-at="2024-05-03T11:34:36 IST" duration-ms="2258" status="PASS">
+        <test-method signature="test_putUser()[pri:3, instance:api.test.TestUser@130c12b7]" started-at="2024-05-04T17:55:34 IST" name="test_putUser" finished-at="2024-05-04T17:55:35 IST" duration-ms="1212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_putUser -->
-        <test-method signature="test_deleteUser()[pri:4, instance:api.test.TestUser@4d5650ae]" started-at="2024-05-03T11:34:36 IST" name="test_deleteUser" finished-at="2024-05-03T11:34:43 IST" duration-ms="6973" status="PASS">
+        <test-method signature="test_deleteUser()[pri:4, instance:api.test.TestUser@130c12b7]" started-at="2024-05-04T17:55:35 IST" name="test_deleteUser" finished-at="2024-05-04T17:55:36 IST" duration-ms="1076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_deleteUser -->
       </class> <!-- api.test.TestUser -->
+      <class name="api.test.TestStore">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestStore@6221a451]" started-at="2024-05-04T17:55:47 IST" name="setUp" finished-at="2024-05-04T17:55:47 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_postStoreOrder()[pri:1, instance:api.test.TestStore@6221a451]" started-at="2024-05-04T17:55:47 IST" name="test_postStoreOrder" finished-at="2024-05-04T17:55:48 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_postStoreOrder -->
+        <test-method signature="test_getStoreOrder()[pri:2, instance:api.test.TestStore@6221a451]" started-at="2024-05-04T17:55:48 IST" name="test_getStoreOrder" finished-at="2024-05-04T17:55:49 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getStoreOrder -->
+        <test-method signature="test_viewStoreInventory()[pri:3, instance:api.test.TestStore@6221a451]" started-at="2024-05-04T17:55:49 IST" name="test_viewStoreInventory" finished-at="2024-05-04T17:55:50 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_viewStoreInventory -->
+        <test-method signature="test_deleteStoreOrder()[pri:4, instance:api.test.TestStore@6221a451]" started-at="2024-05-04T17:55:50 IST" name="test_deleteStoreOrder" finished-at="2024-05-04T17:55:51 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteStoreOrder -->
+      </class> <!-- api.test.TestStore -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

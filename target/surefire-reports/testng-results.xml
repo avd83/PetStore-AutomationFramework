@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-03T12:20:04 IST" name="Surefire suite" finished-at="2024-05-03T12:20:21 IST" duration-ms="17166">
+  <suite started-at="2024-05-04T15:00:56 IST" name="Surefire suite" finished-at="2024-05-04T15:01:16 IST" duration-ms="19288">
     <groups>
     </groups>
-    <test started-at="2024-05-03T12:20:04 IST" name="Surefire test" finished-at="2024-05-03T12:20:21 IST" duration-ms="17166">
+    <test started-at="2024-05-04T15:00:56 IST" name="Surefire test" finished-at="2024-05-04T15:01:16 IST" duration-ms="19288">
+      <class name="api.test.TestPet">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestPet@4944252c]" started-at="2024-05-04T15:00:56 IST" name="setUp" finished-at="2024-05-04T15:00:58 IST" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_postPet()[pri:1, instance:api.test.TestPet@4944252c]" started-at="2024-05-04T15:00:58 IST" name="test_postPet" finished-at="2024-05-04T15:01:02 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_postPet -->
+        <test-method signature="test_getPet()[pri:2, instance:api.test.TestPet@4944252c]" started-at="2024-05-04T15:01:02 IST" name="test_getPet" finished-at="2024-05-04T15:01:03 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPet -->
+        <test-method signature="test_putPet()[pri:3, instance:api.test.TestPet@4944252c]" started-at="2024-05-04T15:01:03 IST" name="test_putPet" finished-at="2024-05-04T15:01:04 IST" duration-ms="1122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_putPet -->
+        <test-method signature="test_deletePet()[pri:4, instance:api.test.TestPet@4944252c]" started-at="2024-05-04T15:01:04 IST" name="test_deletePet" finished-at="2024-05-04T15:01:06 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deletePet -->
+      </class> <!-- api.test.TestPet -->
       <class name="api.test.TestUserExcelDriven">
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@1fe20588]" started-at="2024-05-03T12:20:18 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-03T12:20:19 IST" duration-ms="1094" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@66498326]" started-at="2024-05-04T15:01:12 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-04T15:01:13 IST" duration-ms="1128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@1fe20588]" started-at="2024-05-03T12:20:19 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-03T12:20:20 IST" duration-ms="1187" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@66498326]" started-at="2024-05-04T15:01:13 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-04T15:01:15 IST" duration-ms="1129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@1fe20588]" started-at="2024-05-03T12:20:20 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-03T12:20:21 IST" duration-ms="1115" status="PASS">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.TestUserExcelDriven@66498326]" started-at="2024-05-04T15:01:15 IST" name="testPostUser" data-provider="Data" finished-at="2024-05-04T15:01:16 IST" duration-ms="1129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostUser -->
-        <test-method signature="testDeleteUser(java.lang.String)[pri:2, instance:api.test.TestUserExcelDriven@1fe20588]" started-at="2024-05-03T12:20:21 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-05-03T12:20:21 IST" duration-ms="0" status="FAIL">
+        <test-method signature="testDeleteUser(java.lang.String)[pri:2, instance:api.test.TestUserExcelDriven@66498326]" started-at="2024-05-04T15:01:16 IST" name="testDeleteUser" data-provider="UserNames" finished-at="2024-05-04T15:01:16 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "this.sheet" is null]]>
@@ -171,8 +193,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "this.sheet" is null
 at api.utilities.XLUtility.getCellData(XLUtility.java:54)
 at api.utilities.DataProviders.getUserNames(DataProviders.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
@@ -185,23 +209,23 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedExce
         </test-method> <!-- testDeleteUser -->
       </class> <!-- api.test.TestUserExcelDriven -->
       <class name="api.test.TestUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestUser@27ae2fd0]" started-at="2024-05-03T12:20:04 IST" name="setUp" finished-at="2024-05-03T12:20:06 IST" duration-ms="1637" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.TestUser@51dcb805]" started-at="2024-05-04T15:01:06 IST" name="setUp" finished-at="2024-05-04T15:01:06 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_postUser()[pri:1, instance:api.test.TestUser@27ae2fd0]" started-at="2024-05-03T12:20:06 IST" name="test_postUser" finished-at="2024-05-03T12:20:12 IST" duration-ms="6026" status="PASS">
+        <test-method signature="test_postUser()[pri:1, instance:api.test.TestUser@51dcb805]" started-at="2024-05-04T15:01:06 IST" name="test_postUser" finished-at="2024-05-04T15:01:07 IST" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_postUser -->
-        <test-method signature="test_getUser()[pri:2, instance:api.test.TestUser@27ae2fd0]" started-at="2024-05-03T12:20:12 IST" name="test_getUser" finished-at="2024-05-03T12:20:13 IST" duration-ms="1285" status="PASS">
+        <test-method signature="test_getUser()[pri:2, instance:api.test.TestUser@51dcb805]" started-at="2024-05-04T15:01:07 IST" name="test_getUser" finished-at="2024-05-04T15:01:08 IST" duration-ms="1132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getUser -->
-        <test-method signature="test_putUser()[pri:3, instance:api.test.TestUser@27ae2fd0]" started-at="2024-05-03T12:20:13 IST" name="test_putUser" finished-at="2024-05-03T12:20:14 IST" duration-ms="1188" status="PASS">
+        <test-method signature="test_putUser()[pri:3, instance:api.test.TestUser@51dcb805]" started-at="2024-05-04T15:01:08 IST" name="test_putUser" finished-at="2024-05-04T15:01:09 IST" duration-ms="1131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_putUser -->
-        <test-method signature="test_deleteUser()[pri:4, instance:api.test.TestUser@27ae2fd0]" started-at="2024-05-03T12:20:15 IST" name="test_deleteUser" finished-at="2024-05-03T12:20:16 IST" duration-ms="1142" status="PASS">
+        <test-method signature="test_deleteUser()[pri:4, instance:api.test.TestUser@51dcb805]" started-at="2024-05-04T15:01:09 IST" name="test_deleteUser" finished-at="2024-05-04T15:01:10 IST" duration-ms="1131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_deleteUser -->

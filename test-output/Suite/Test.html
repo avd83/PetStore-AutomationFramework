@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 03 11:34:19 IST 2024</td>
+<td>Started on:</td><td>Sat May 04 17:55:27 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23863 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24410 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -83,8 +83,8 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xs
 	at api.utilities.XLUtility.getCellData(XLUtility.java:54)
 	at api.utilities.DataProviders.getUserNames(DataProviders.java:37)
 	... 25 more
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1775658917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1775658917'><pre>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;this.sheet&quot; is null
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1372771126", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1372771126'><pre>java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;this.sheet&quot; is null
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
@@ -124,7 +124,7 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xs
 	... 25 more
 </pre></div></td>
 <td>0</td>
-<td>api.test.TestUserExcelDriven@550dbc7a</td></tr>
+<td>api.test.TestUserExcelDriven@51c668e3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -135,40 +135,80 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xs
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='api.test.TestUser.test_deleteUser()'><b>test_deleteUser</b><br>Test class: api.test.TestUser</td>
-<td></td>
-<td>6</td>
-<td>api.test.TestUser@4d5650ae</td></tr>
-<tr>
-<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1040, maheesh, mahesh, manjrekar, m.m@gmail.com, abc12, 6787678987</td>
+<td title='api.test.TestStore.test_viewStoreInventory()'><b>test_viewStoreInventory</b><br>Test class: api.test.TestStore</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUserExcelDriven@550dbc7a</td></tr>
+<td>api.test.TestStore@6221a451</td></tr>
+<tr>
+<td title='api.test.TestStore.test_postStoreOrder()'><b>test_postStoreOrder</b><br>Test class: api.test.TestStore</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestStore@6221a451</td></tr>
 <tr>
 <td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1020, arsgad, arshad, warsi, a.w@gmail.com, abc, 9876789876</td>
 <td></td>
-<td>4</td>
-<td>api.test.TestUserExcelDriven@550dbc7a</td></tr>
+<td>1</td>
+<td>api.test.TestUserExcelDriven@51c668e3</td></tr>
 <tr>
-<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1030, sanju, sanjay , dutt, s.d@gmail.com, abc1, 8787987678</td>
+<td title='api.test.TestPet.test_deletePet()'><b>test_deletePet</b><br>Test class: api.test.TestPet</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUserExcelDriven@550dbc7a</td></tr>
-<tr>
-<td title='api.test.TestUser.test_putUser()'><b>test_putUser</b><br>Test class: api.test.TestUser</td>
-<td></td>
-<td>2</td>
-<td>api.test.TestUser@4d5650ae</td></tr>
-<tr>
-<td title='api.test.TestUser.test_postUser()'><b>test_postUser</b><br>Test class: api.test.TestUser</td>
-<td></td>
-<td>2</td>
-<td>api.test.TestUser@4d5650ae</td></tr>
+<td>api.test.TestPet@2e6a8155</td></tr>
 <tr>
 <td title='api.test.TestUser.test_getUser()'><b>test_getUser</b><br>Test class: api.test.TestUser</td>
 <td></td>
 <td>1</td>
-<td>api.test.TestUser@4d5650ae</td></tr>
+<td>api.test.TestUser@130c12b7</td></tr>
+<tr>
+<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1040, maheesh, mahesh, manjrekar, m.m@gmail.com, abc12, 6787678987</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUserExcelDriven@51c668e3</td></tr>
+<tr>
+<td title='api.test.TestStore.test_deleteStoreOrder()'><b>test_deleteStoreOrder</b><br>Test class: api.test.TestStore</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestStore@6221a451</td></tr>
+<tr>
+<td title='api.test.TestUser.test_postUser()'><b>test_postUser</b><br>Test class: api.test.TestUser</td>
+<td></td>
+<td>4</td>
+<td>api.test.TestUser@130c12b7</td></tr>
+<tr>
+<td title='api.test.TestPet.test_postPet()'><b>test_postPet</b><br>Test class: api.test.TestPet</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestPet@2e6a8155</td></tr>
+<tr>
+<td title='api.test.TestUser.test_deleteUser()'><b>test_deleteUser</b><br>Test class: api.test.TestUser</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUser@130c12b7</td></tr>
+<tr>
+<td title='api.test.TestStore.test_getStoreOrder()'><b>test_getStoreOrder</b><br>Test class: api.test.TestStore</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestStore@6221a451</td></tr>
+<tr>
+<td title='api.test.TestUserExcelDriven.testPostUser()'><b>testPostUser</b><br>Test class: api.test.TestUserExcelDriven<br>Parameters: 1030, sanju, sanjay , dutt, s.d@gmail.com, abc1, 8787987678</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUserExcelDriven@51c668e3</td></tr>
+<tr>
+<td title='api.test.TestPet.test_getPet()'><b>test_getPet</b><br>Test class: api.test.TestPet</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestPet@2e6a8155</td></tr>
+<tr>
+<td title='api.test.TestPet.test_putPet()'><b>test_putPet</b><br>Test class: api.test.TestPet</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestPet@2e6a8155</td></tr>
+<tr>
+<td title='api.test.TestUser.test_putUser()'><b>test_putUser</b><br>Test class: api.test.TestUser</td>
+<td></td>
+<td>1</td>
+<td>api.test.TestUser@130c12b7</td></tr>
 </table><p>
 </body>
 </html>

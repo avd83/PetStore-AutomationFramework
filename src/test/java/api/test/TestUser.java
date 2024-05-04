@@ -17,8 +17,7 @@ public class TestUser {
 	User userPayload ;
 	Faker faker ;
 	String userName;
-	public Logger logger;
-	
+	public Logger logger;	
 	
 	@BeforeClass
 	void setUp() {	
